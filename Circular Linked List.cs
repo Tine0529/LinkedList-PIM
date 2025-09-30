@@ -37,7 +37,7 @@ class CircularLinkedList {
           current = current.Next;
         }
         
-          current = newNode;
+          current.Next = newNode;
           newNode.Next = head;
       }
     }
